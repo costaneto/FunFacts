@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51b46d"
+    android:padding="50dp"
+    tools:context=".FunFactsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/did_you_know"
+        android:textColor="@color/Did_you_know"
+        android:textSize="24sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/factTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/fact1"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/nextFactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/show_next_fun_fact"
+        android:textColor="#51b46d"
+        app:backgroundTint="#ffffff"
+        tools:ignore="TextContrastCheck" />
+
+</RelativeLayout>
